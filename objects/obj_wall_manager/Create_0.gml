@@ -4,4 +4,3 @@ wall = instance_create_depth(x, y, depth, obj_wall_easy);
 with (wall) {
 	game_manager = other;
 }
-

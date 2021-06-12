@@ -18,7 +18,7 @@ is_grabbed = function() {
 		if (_amt_hitboxes > 0) {
 			for (var i = 0; i < _amt_hitboxes; i++) {
 				var _hitbox = _hitboxes[| i];
-				if (_hitbox.sprite_index == _grab_spr) {
+				if (_hitbox.sprite_index == _grab_spr && _hitbox.active) {
 					_ret = true;
 					other.grabbing_hitbox = _hitbox;
 				}

@@ -157,5 +157,5 @@ function Macros() {
 	#macro left_hold_box_spawn_y 128
 	
 	#macro hold_box_padding 16
-	#macro hold_box_offset 16
+	#macro hold_box_offset 32
 }

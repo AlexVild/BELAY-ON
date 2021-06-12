@@ -1,9 +1,9 @@
 /// @func create_wall_holds
 /// @desc creates all of the hold_boxes for the calling wall object
 function create_wall_holds(){
-	var _total_holds = ds_list_size(right_holds) + ds_list_size(left_holds);
+	total_holds = ds_list_size(right_holds) + ds_list_size(left_holds);
 	
-	if (_total_holds > 0) {
+	if (total_holds > 0) {
 		for (var i = 0; i < ds_list_size(right_holds); i++) {
 			var _y;
 			if (i > 0) {
