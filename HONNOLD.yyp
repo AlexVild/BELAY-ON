@@ -22,6 +22,7 @@
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},"order":11,},
     {"id":{"name":"round_position","path":"scripts/round_position/round_position.yy",},"order":13,},
     {"id":{"name":"state_climber_wall_done","path":"scripts/state_climber_wall_done/state_climber_wall_done.yy",},"order":3,},
+    {"id":{"name":"display_stamina_bar","path":"scripts/display_stamina_bar/display_stamina_bar.yy",},"order":1,},
     {"id":{"name":"ceil_signed","path":"scripts/ceil_signed/ceil_signed.yy",},"order":15,},
     {"id":{"name":"draw_screen_rectangle","path":"scripts/draw_screen_rectangle/draw_screen_rectangle.yy",},"order":17,},
     {"id":{"name":"draw_text_outlined","path":"scripts/draw_text_outlined/draw_text_outlined.yy",},"order":19,},
