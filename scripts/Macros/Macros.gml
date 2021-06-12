@@ -151,8 +151,11 @@ function Macros() {
 
 	#macro rose_fragment_inc_amt 4
 
-	#macro right_hand_box_spawn_x 416
-	#macro right_hand_box_spawn_y 176
-	#macro left_hand_box_spawn_x 96
-	#macro left_hand_box_spawn_y 144
+	#macro right_hold_box_spawn_x 352
+	#macro right_hold_box_spawn_y 160
+	#macro left_hold_box_spawn_x 176
+	#macro left_hold_box_spawn_y 128
+	
+	#macro hold_box_padding 16
+	#macro hold_box_offset 16
 }
