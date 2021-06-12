@@ -19,3 +19,4 @@ victory_spr = spr_climber;
 belay_on = false;
 rope_length = 0.0;
 belongs_to = noone;
+climber = noone;

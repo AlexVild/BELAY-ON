@@ -11,12 +11,14 @@ right_hold_index = 0;
 left_hold_index = 0;
 
 climber = instance_create_layer(272, 224, "Climbers", obj_climber);
-with (climber) {
-	belongs_to = other;	
-}
 belayer = instance_create_layer(240, 240, "Climbers", obj_belayer);
+with (climber) {
+	belongs_to = other;
+	belayer = other.belayer;
+}
 with (belayer) {
 	belongs_to = other;	
+	climber = other.climber;
 }
 
 /// @func start_climb()
@@ -43,13 +45,29 @@ progress_wall = function(_box_type, _grip_percent) {
 	if (_box_type == HOLD_BOX_TYPE.RIGHT) {
 		right_hold_index++;
 		active_hold_box_type = HOLD_BOX_TYPE.LEFT;
+		if (left_hold_index < ds_list_size(left_hold_boxes)) {
+			with (left_hold_boxes[| left_hold_index]) {
+				if (child_hand_instance == noone) {
+					create_hand();
+				}
+			}
+		}
 	} else {
 		left_hold_index++;
 		active_hold_box_type = HOLD_BOX_TYPE.RIGHT;
+		if (right_hold_index < ds_list_size(right_hold_boxes)) {
+			with (right_hold_boxes[| right_hold_index]) {
+				if (child_hand_instance == noone) {
+					create_hand();
+				}
+			}
+		}
 	}
 	update_hold_box_positions();
-					
+
+	var _wall_climbed = holds_climbed == total_holds;
 	with (climber) {
 		grip_percent = _grip_percent;
+		is_finished = _wall_climbed;
 	}
 }

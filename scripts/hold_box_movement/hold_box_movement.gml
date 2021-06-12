@@ -6,8 +6,10 @@ function hold_box_movement(){
 		is_moving = true;
 		var _vspd = vspd;
 		y += _vspd;
-		with (child_hand_instance) {
-			y += _vspd;
+		if (child_hand_instance) {
+			with (child_hand_instance) {
+				y += _vspd;
+			}
 		}
 		with (hold_to_display) {
 			y += _vspd;
@@ -19,8 +21,10 @@ function hold_box_movement(){
 		is_moving = true;
 		var _hspd = hspd;
 		x += _hspd;
-		with (child_hand_instance) {
-			x += _hspd;
+		if (child_hand_instance) {
+			with (child_hand_instance) {
+				x += _hspd;
+			}
 		}
 		with (hold_to_display) {
 			x += _hspd;

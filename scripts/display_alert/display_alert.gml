@@ -10,6 +10,8 @@ enum ALERT {
 	OKAY,
 	BAD,
 	UHOH,
+	BIG_SUCCESS,
+	FAILURE,
 }
 
 function display_alert(_alert_type, _x, _y){
@@ -29,6 +31,12 @@ function display_alert(_alert_type, _x, _y){
 			break;
 		case ALERT.UHOH:
 			_alert = new Alert("UH-OH!", c_red, c_white, 1, 2);
+			break;
+		case ALERT.BIG_SUCCESS:
+			_alert = new Alert("WOW! BIG GOOD!!!", c_white, c_teal, 0, -.5);
+			break;
+		case ALERT.FAILURE:
+			_alert = new Alert("YOU HAVE FAILED THE CLIMB", c_red, c_white, 0, .5);
 			break;
 	}
 	

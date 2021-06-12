@@ -14,3 +14,7 @@ if (hold_box_parent.hold_box_locked) {
 		}
 	}
 }
+
+if (!instance_exists(hold_box_parent)) {
+	instance_destroy();	
+}

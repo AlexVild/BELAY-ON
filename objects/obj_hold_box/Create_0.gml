@@ -18,8 +18,13 @@ hspd = 12;
 is_moving = false;
 y_destination = y;
 x_destination = x;
+child_hand_instance = noone;
 
-child_hand_instance = instance_create_depth(x, y, depth - 1, obj_hand);
-with (child_hand_instance) {
-	hold_box_parent = other;	
+/// @func create_hand
+/// @desc creates a hand inside the given hold box
+create_hand = function() {
+	child_hand_instance = instance_create_depth(x, y, depth - 1, obj_hand);
+	with (child_hand_instance) {
+		hold_box_parent = other;
+	}
 }

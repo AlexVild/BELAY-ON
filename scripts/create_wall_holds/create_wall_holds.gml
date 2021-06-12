@@ -21,6 +21,18 @@ function create_wall_holds(){
 			}
 			create_hold_box(left_hold_box_spawn_x, _y, HOLD_BOX_TYPE.LEFT, left_holds[| i]);
 		}
+		
+		// Initial hands
+		if (ds_list_size(right_hold_boxes) > 0) {
+			with (right_hold_boxes[| 0]) {
+				create_hand();
+			}
+		}
+		if (ds_list_size(left_hold_boxes) > 0) {
+			with (left_hold_boxes[| 0]) {
+				create_hand();
+			}
+		}
 	} else {
 		show_message("NO HOLDS FOUND TO INITIALIZE WALL! Closing game.");
 		game_end();

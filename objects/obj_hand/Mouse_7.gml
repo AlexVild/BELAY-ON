@@ -3,4 +3,3 @@ if (is_clicked && !disabled) {
 }
 
 event_inherited();
-
