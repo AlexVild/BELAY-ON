@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_hand",
-    "path": "sprites/spr_hand/spr_hand.yy",
+    "name": "spr_right_hand_open",
+    "path": "sprites/spr_right_hand_open/spr_right_hand_open.yy",
   },
   "solid": false,
   "visible": true,
