@@ -17,6 +17,12 @@ idle_spr = spr_climber;
 belaying_spr = spr_climber;
 victory_spr = spr_climber;
 belay_on = false;
-rope_length = 0.0;
+slack = 0;
+slack_increment = 1;
+
 belongs_to = noone;
 climber = noone;
+rope_meter = instance_create_layer(rope_meter_x, rope_meter_y, "Game", obj_rope_meter);
+with (rope_meter) {
+	belayer = other;
+}
