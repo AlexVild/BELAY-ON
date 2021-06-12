@@ -16,3 +16,6 @@ vspd = 0;
 idle_spr = spr_climber;
 belaying_spr = spr_climber;
 victory_spr = spr_climber;
+belay_on = false;
+rope_length = 0.0;
+belongs_to = noone;

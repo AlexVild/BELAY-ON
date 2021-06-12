@@ -157,4 +157,10 @@ function Macros() {
 	#macro left_hold_box_spawn_y 96
 	
 	#macro hold_box_padding 128
+	
+	#macro perfect_threshold 0.9
+	#macro good_threshold 0.75
+	#macro okay_threshold 0.5
+	#macro bad_threshold 0.25
+	#macro uhoh_threshold 0
 }
