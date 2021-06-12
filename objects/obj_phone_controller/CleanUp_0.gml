@@ -1,0 +1,2 @@
+instance_destroy(message_instance);
+instance_destroy(notification_instance);

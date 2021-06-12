@@ -1,0 +1,1 @@
+hitbox_belongs_to = noone;
