@@ -6,7 +6,7 @@
     "path": "folders/Scripts/hold_scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "move_hold_box_down",
+  "name": "hold_box_movement",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -7,7 +7,7 @@ function create_wall_holds(){
 		for (var i = 0; i < ds_list_size(right_holds); i++) {
 			var _y;
 			if (i > 0) {
-				_y = right_hold_box_spawn_y - ((hold_box_padding + sprite_get_height(spr_hold_box)) * i);
+				_y = right_hold_box_spawn_y - (hold_box_padding * i);
 			} else {
 				_y = right_hold_box_spawn_y;
 			}
@@ -15,7 +15,7 @@ function create_wall_holds(){
 		}
 		for (var i = 0; i < ds_list_size(left_holds); i++) {
 			if (i > 0) {
-				_y = left_hold_box_spawn_y - ((hold_box_padding + sprite_get_height(spr_hold_box)) * i);
+				_y = left_hold_box_spawn_y - (hold_box_padding * i);
 			} else {
 				_y = left_hold_box_spawn_y;
 			}

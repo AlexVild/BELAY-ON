@@ -1,6 +1,6 @@
 event_inherited();
 
-if (hold_box_parent.hold_box_locked) {
+if (hold_box_parent.hold_box_locked || hold_box_parent.is_moving) {
 	disabled = true;
 } else if (state == HAND_STATES.GRABBED) {
 	disabled = true;

@@ -13,6 +13,9 @@ function create_hold_box(_x, _y, _type, _hold){
 	}
 	with (_box) {
 		hold_box_type = _type;
+		if (hold_box_type == HOLD_BOX_TYPE.LEFT) {
+			hspd *= -1;
+		}
 		wall_instance = other;
 		hold_box_locked = true;
 		
