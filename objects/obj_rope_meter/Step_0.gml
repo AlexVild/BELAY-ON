@@ -24,7 +24,9 @@ if (!instance_exists(belayer)) {
 				alarm_speed = ALARM_SPEEDS.OFF;
 			}
 			break;
+		case SLACK_STATUS.LITTLE_LOW:
 		case SLACK_STATUS.GOOD:
+		case SLACK_STATUS.LITTLE_HIGH:
 			with (alarm_low_slack) {
 				alarm_speed = ALARM_SPEEDS.OFF;
 			}

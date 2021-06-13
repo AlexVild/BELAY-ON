@@ -158,21 +158,24 @@ function Macros() {
 	
 	#macro hold_box_padding 128
 	
-	#macro perfect_threshold 0.8
-	#macro good_threshold 0.6
-	#macro okay_threshold 0.4
-	#macro bad_threshold 0.15
+	#macro perfect_threshold 0.95
+	#macro good_threshold 0.75
+	#macro okay_threshold 0.6
+	#macro bad_threshold 0.25
 	#macro uhoh_threshold 0
 	
 	#macro minimum_slack -100
 	#macro maximum_slack 100
+	#macro little_low_slack_threshold -30
+	#macro little_high_slack_threshold 20
 	#macro high_slack_threshold 60
 	#macro very_high_slack_threshold 80
 	#macro low_slack_threshold -60
 	#macro very_low_slack_threshold -80
 	
 	// Used for determining how much to shake a hand when slack is high/very high
-	#macro fear_mod_low 1
+	#macro fear_mod_very_low 1
+	#macro fear_mod_low 2
 	#macro fear_mod_high 3
 	
 	#macro rope_meter_x 50

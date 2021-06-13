@@ -19,7 +19,8 @@ victory_spr = spr_climber;
 belay_on = false;
 slack = 0;
 slack_status = get_slack_status(slack);
-slack_increment = 20;
+slack_increment_good = 15;
+slack_increment_bad = 10;
 
 belongs_to = noone;
 climber = noone;

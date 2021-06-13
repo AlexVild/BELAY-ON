@@ -6,10 +6,18 @@ function slack_management(_belayer){
 		slack_status = get_slack_status(slack);
 		
 		if (mouse_wheel_up()) {
-			slack += slack_increment;
+			if (slack_status == SLACK_STATUS.GOOD) {
+				slack += slack_increment_good;
+			} else {
+				slack += slack_increment_bad;
+			}
 		}
 		if (mouse_wheel_down()) {
-			slack -= slack_increment;
+			if (slack_status == SLACK_STATUS.GOOD) {
+				slack -= slack_increment_good;
+			} else {
+				slack -= slack_increment_bad;
+			}
 		}
 		
 		if (instance_exists(climber)) {
@@ -30,7 +38,9 @@ function slack_management(_belayer){
 enum SLACK_STATUS {
 	VERY_LOW,
 	LOW,
+	LITTLE_LOW,
 	GOOD,
+	LITTLE_HIGH,
 	HIGH,
 	VERY_HIGH,
 }

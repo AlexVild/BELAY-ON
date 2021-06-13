@@ -7,8 +7,12 @@ function get_slack_status(_slack){
 		return SLACK_STATUS.VERY_HIGH;
 	} else if (_slack < very_high_slack_threshold && _slack >= high_slack_threshold) {
 		return SLACK_STATUS.HIGH;
-	} else if (_slack < high_slack_threshold && _slack >= low_slack_threshold) {
+	} else if (_slack < high_slack_threshold && _slack >= little_high_slack_threshold) {
+		return SLACK_STATUS.LITTLE_HIGH;
+	} else if (_slack < little_high_slack_threshold && _slack >= little_low_slack_threshold) {
 		return SLACK_STATUS.GOOD;
+	} else if (_slack < little_low_slack_threshold && _slack >= low_slack_threshold) {
+		return SLACK_STATUS.LITTLE_LOW;
 	} else if (_slack < low_slack_threshold && _slack >= very_low_slack_threshold) {
 		return SLACK_STATUS.LOW;
 	} else if (_slack < very_low_slack_threshold) {

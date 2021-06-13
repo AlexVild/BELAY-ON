@@ -15,3 +15,4 @@ ds_list_add(left_holds, new Hold(HOLD_TYPE.MONO, 0, 0));
 #endregion
 
 hold_distance = 55;
+hold_variance = 5;
