@@ -7,6 +7,7 @@ function grip_hold(_hold){
 	
 		with (grabbing_hitbox.hitbox_belongs_to) { // Update Hand
 			hand_grab_hold(other.type);
+			audio_play_sound(sfx_grab, 0, false);
 		}
 		with (belongs_to) {
 			if (!hold_box_locked) {

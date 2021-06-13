@@ -17,7 +17,7 @@ truestate_create_state(CLIMBER_STATES.FALLEN, state_climber_fallen, "Fallen");
 
 truestate_set_default(CLIMBER_STATES.GROUND_IDLE);
 
-normal_fall_distance = 40;
+normal_fall_distance = 25;
 vspd = 0;
 ground_idle_spr = spr_climber_ground_idle;
 wall_idle_spr = spr_climber_climbing;
