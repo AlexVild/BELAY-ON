@@ -20,6 +20,9 @@ function slack_management(_belayer){
 			}
 		}
 		
+		// random slack changes
+		slack += irandom_range(-slack_variance, slack_variance);
+		
 		if (instance_exists(climber)) {
 			with (climber) {
 				slack_status = other.slack_status;	

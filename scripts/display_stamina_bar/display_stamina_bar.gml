@@ -9,7 +9,7 @@ function display_stamina_bar(){
 	draw_set_font(fnt_game);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_bottom);
-	draw_text(display_get_gui_width() / 2 + 5, _y_start, "STAMINA");
+	draw_text(display_get_gui_width() / 2 + 5, _y_start + 3, "STAMINA");
 	draw_set_font(-1);
 	draw_set_halign(-1);
 	draw_set_valign(-1);
