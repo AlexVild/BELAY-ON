@@ -6,7 +6,7 @@ if (!instance_exists(belayer)) {
 	}
 	if (instance_exists(dial)) {
 		with (dial) {
-			slack = other.slack;	
+			slack = other.slack;
 		}
 	}
 }

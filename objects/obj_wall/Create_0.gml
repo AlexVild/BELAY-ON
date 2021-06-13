@@ -9,6 +9,7 @@ total_holds = -1;
 active_hold_box_type = HOLD_BOX_TYPE.RIGHT;
 right_hold_index = 0;
 left_hold_index = 0;
+hold_distance = -1; // how much slack each new hold adds
 
 climber = instance_create_layer(272, 224, "Climbers", obj_climber);
 belayer = instance_create_layer(240, 240, "Climbers", obj_belayer);
@@ -38,6 +39,8 @@ start_climb = function() {
 /// @args {HOLD_BOX_TYPE} box_type
 /// @args {real} grip_percent
 progress_wall = function(_box_type, _grip_percent) {
+	var _wall = self;
+	
 	if (holds_climbed <= 0) {
 		start_climb();
 	}
@@ -69,5 +72,8 @@ progress_wall = function(_box_type, _grip_percent) {
 	with (climber) {
 		grip_percent = _grip_percent;
 		is_finished = _wall_climbed;
+		with(belayer) {
+			slack -= _wall.hold_distance;
+		}
 	}
 }

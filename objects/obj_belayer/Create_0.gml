@@ -18,7 +18,7 @@ belaying_spr = spr_climber;
 victory_spr = spr_climber;
 belay_on = false;
 slack = 0;
-slack_increment = 1;
+slack_increment = 5;
 
 belongs_to = noone;
 climber = noone;

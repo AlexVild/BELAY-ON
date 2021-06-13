@@ -167,6 +167,6 @@ function Macros() {
 	#macro minimum_slack -100
 	#macro maximum_slack 100
 	
-	#macro rope_meter_x 80
-	#macro rope_meter_y 260
+	#macro rope_meter_x 50
+	#macro rope_meter_y 240
 }

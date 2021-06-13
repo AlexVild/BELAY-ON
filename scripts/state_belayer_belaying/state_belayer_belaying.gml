@@ -10,7 +10,7 @@ function state_belayer_belaying(_event){
 		}
 		
 		with (rope_meter) {
-			slack = other.slack	
+			slack = other.slack;
 		}
 	} else if (_event == draw) {
 		sprite_index = belaying_spr;
