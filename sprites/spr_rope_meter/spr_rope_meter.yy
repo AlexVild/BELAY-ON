@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0de3a493-a92d-4ad8-a4a6-c2160b940502","path":"sprites/spr_rope_meter/spr_rope_meter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0de3a493-a92d-4ad8-a4a6-c2160b940502","path":"sprites/spr_rope_meter/spr_rope_meter.yy",},"LayerId":{"name":"b7d7153c-dcd9-4519-b957-9398f6e06f47","path":"sprites/spr_rope_meter/spr_rope_meter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rope_meter","path":"sprites/spr_rope_meter/spr_rope_meter.yy",},"resourceVersion":"1.0","name":"0de3a493-a92d-4ad8-a4a6-c2160b940502","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9e630c16-4287-4c99-94eb-8207ea49b875","path":"sprites/spr_rope_meter/spr_rope_meter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9e630c16-4287-4c99-94eb-8207ea49b875","path":"sprites/spr_rope_meter/spr_rope_meter.yy",},"LayerId":{"name":"c1ae3de6-ff96-4231-bbc2-dd9883afff0e","path":"sprites/spr_rope_meter/spr_rope_meter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_rope_meter","path":"sprites/spr_rope_meter/spr_rope_meter.yy",},"resourceVersion":"1.0","name":"9e630c16-4287-4c99-94eb-8207ea49b875","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_rope_meter","path":"sprites/spr_rope_meter/spr_rope_meter.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d9475ec3-a4e1-48e0-b79e-d6c79b2fde6f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0de3a493-a92d-4ad8-a4a6-c2160b940502","path":"sprites/spr_rope_meter/spr_rope_meter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"68328e5b-e6af-4949-b01d-45fa085fa65e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9e630c16-4287-4c99-94eb-8207ea49b875","path":"sprites/spr_rope_meter/spr_rope_meter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b7d7153c-dcd9-4519-b957-9398f6e06f47","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c1ae3de6-ff96-4231-bbc2-dd9883afff0e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
