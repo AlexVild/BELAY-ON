@@ -1,5 +1,5 @@
-if (keyboard_check_pressed(vk_f1)) {
-	room_restart();
+if (keyboard_check_pressed(vk_escape)) {
+	room_goto(rm_title)
 }
 
 if (!is_displaying) {
