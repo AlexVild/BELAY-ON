@@ -2,6 +2,8 @@ menu_options = ds_grid_create(4, 5);
 unselected_color = c_white;
 selected_color = c_yellow;
 
+selected_option = -1;
+
 enum MENU_OPTION {
 	EASY,
 	MEDIUM,
@@ -12,7 +14,8 @@ enum MENU_OPTION {
 
 enum MENU_OPTION_ROW {
 	TEXT,
-	LOCATION,
+	X_LOC,
+	Y_LOC,
 	ACTION,
 	PARAMS
 }
@@ -42,6 +45,7 @@ go_to_wall = function(_diff) {
 }
 
 ds_grid_add(menu_options, MENU_OPTION.EASY, MENU_OPTION_ROW.TEXT, "EASY");
-ds_grid_add(menu_options, MENU_OPTION.EASY, MENU_OPTION_ROW.LOCATION, [64, 80]);
+ds_grid_add(menu_options, MENU_OPTION.EASY, MENU_OPTION_ROW.X_LOC, 64);
+ds_grid_add(menu_options, MENU_OPTION.EASY, MENU_OPTION_ROW.Y_LOC, 80);
 ds_grid_add(menu_options, MENU_OPTION.EASY, MENU_OPTION_ROW.ACTION, go_to_wall);
 ds_grid_add(menu_options, MENU_OPTION.EASY, MENU_OPTION_ROW.PARAMS, DIFFICULTY.EASY);

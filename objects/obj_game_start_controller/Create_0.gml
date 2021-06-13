@@ -5,4 +5,4 @@ global.full_screen = false;
 
 randomize();
 
-room_goto(rm_wall);
+room_goto(rm_title);

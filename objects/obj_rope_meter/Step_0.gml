@@ -1,6 +1,12 @@
 if (!instance_exists(belayer)) {
 	instance_destroy();	
 } else {
+	if (instance_exists(obj_rope_alarm)) {
+		with (obj_rope_alarm) {
+			belayer = other.belayer;
+		}
+	}
+	
 	if (instance_exists(dial)) {
 		with (dial) {
 			slack = other.slack;

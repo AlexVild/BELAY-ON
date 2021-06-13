@@ -11,3 +11,5 @@ warning_speed = 0.5;
 danger_speed = 1.0;
 
 alarm_speed = ALARM_SPEEDS.OFF;
+
+belayer = noone;

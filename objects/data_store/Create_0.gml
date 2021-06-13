@@ -8,6 +8,8 @@ enum HOLD_TYPE {
 	JUG,
 }
 
+selected_difficulty = DIFFICULTY.EASY;
+
 ds_map_add(hold_mapping, HOLD_TYPE.MONO, spr_hand_hb_mono);
 ds_map_add(hold_mapping, HOLD_TYPE.CRIMP, spr_hand_hb_crimp);
 ds_map_add(hold_mapping, HOLD_TYPE.EDGE, spr_hand_hb_slope);
