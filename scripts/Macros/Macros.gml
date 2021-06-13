@@ -171,6 +171,10 @@ function Macros() {
 	#macro low_slack_threshold -60
 	#macro very_low_slack_threshold -80
 	
+	// Used for determining how much to shake a hand when slack is high/very high
+	#macro fear_mod_low 1
+	#macro fear_mod_high 3
+	
 	#macro rope_meter_x 50
 	#macro rope_meter_y 240
 }

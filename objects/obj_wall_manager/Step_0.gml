@@ -1,5 +1,5 @@
 if (keyboard_check_pressed(vk_f1)) {
-	instance_destroy();
+	room_restart();
 }
 
 if (!is_displaying) {

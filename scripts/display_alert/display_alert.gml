@@ -12,6 +12,7 @@ enum ALERT {
 	UHOH,
 	BIG_SUCCESS,
 	FAILURE,
+	NEED_SLACK,
 }
 
 function display_alert(_alert_type, _x, _y){
@@ -37,6 +38,9 @@ function display_alert(_alert_type, _x, _y){
 			break;
 		case ALERT.FAILURE:
 			_alert = new Alert("YOU HAVE FAILED THE CLIMB", c_red, c_white, 0, .5);
+			break;
+		case ALERT.NEED_SLACK:
+			_alert = new Alert("NEED SLACK", c_red, c_red, 0, 0.2);
 			break;
 	}
 	

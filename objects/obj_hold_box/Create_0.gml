@@ -23,8 +23,10 @@ child_hand_instance = noone;
 /// @func create_hand
 /// @desc creates a hand inside the given hold box
 create_hand = function() {
-	child_hand_instance = instance_create_depth(x, y, depth - 1, obj_hand);
+	var _climber_instance = wall_instance.climber;
+	child_hand_instance = instance_create_layer(x, y, "Hands", obj_hand);
 	with (child_hand_instance) {
 		hold_box_parent = other;
+		climber = _climber_instance;
 	}
 }

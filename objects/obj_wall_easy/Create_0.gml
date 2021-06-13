@@ -14,4 +14,4 @@ ds_list_add(left_holds, new Hold(HOLD_TYPE.JUG, -6, 4));
 ds_list_add(left_holds, new Hold(HOLD_TYPE.JUG, -6, 4));
 #endregion
 
-hold_distance = 20;
+hold_distance = 55;

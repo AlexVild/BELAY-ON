@@ -17,7 +17,7 @@ function Alert(_text, _c1, _c2, _hspd, _vspd) constructor{
 	/// @args {int} x
 	/// @desc {int} y
 	create = function(_x, _y) {
-		with(instance_create_layer(_x, _y, "Game", obj_alert)) {
+		with(instance_create_layer(_x, _y, "Alerts", obj_alert)) {
 			text = other.text;
 			c1 = other.c1;
 			c2 = other.c2;
