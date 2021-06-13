@@ -14,6 +14,7 @@ if (!is_displaying) {
 
 	if (wall_completed) {
 		audio_play_sound(bgm_fanfare, 0, false);
+		audio_play_sound(victory, 0, false);
 		is_displaying = true;
 		display_alert(ALERT.BIG_SUCCESS, room_width / 2, room_height / 2);
 		with (obj_button) {
