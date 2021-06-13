@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_rope_meter_dial",
-    "path": "sprites/spr_rope_meter_dial/spr_rope_meter_dial.yy",
+    "name": "spr_warning_light",
+    "path": "sprites/spr_warning_light/spr_warning_light.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,9 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +31,7 @@
     "path": "folders/Objects/UI/rope_meter.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_rope_meter_dial",
+  "name": "obj_rope_alarm",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -31,4 +31,4 @@ belongs_to = noone;
 base_stamina_degrade_rate = 0.01;
 grip_percent = 0.0;
 belayer = noone;
-slack_needed = -1;
+slack_status = SLACK_STATUS.GOOD;

@@ -166,6 +166,10 @@ function Macros() {
 	
 	#macro minimum_slack -100
 	#macro maximum_slack 100
+	#macro high_slack_threshold 60
+	#macro very_high_slack_threshold 80
+	#macro low_slack_threshold -60
+	#macro very_low_slack_threshold -80
 	
 	#macro rope_meter_x 50
 	#macro rope_meter_y 240
