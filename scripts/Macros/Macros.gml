@@ -158,10 +158,10 @@ function Macros() {
 	
 	#macro hold_box_padding 128
 	
-	#macro perfect_threshold 0.9
-	#macro good_threshold 0.75
-	#macro okay_threshold 0.5
-	#macro bad_threshold 0.25
+	#macro perfect_threshold 0.8
+	#macro good_threshold 0.6
+	#macro okay_threshold 0.4
+	#macro bad_threshold 0.15
 	#macro uhoh_threshold 0
 	
 	#macro minimum_slack -100

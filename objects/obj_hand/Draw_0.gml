@@ -4,4 +4,4 @@ if (debug_mode) {
 
 determine_hand_sprite();
 
-draw_self();
+draw_self_facing();

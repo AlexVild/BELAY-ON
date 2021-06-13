@@ -3,6 +3,7 @@ y_offset = 0;
 grabbing_hitbox = noone;
 hold_hitbox = noone;
 belongs_to = noone;
+face_dir = facing_right;
 
 /// @func is_grabbed
 /// @desc determine if a hold is grabbed by its appropriate hitbox

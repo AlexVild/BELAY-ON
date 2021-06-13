@@ -28,5 +28,8 @@ create_hand = function() {
 	with (child_hand_instance) {
 		hold_box_parent = other;
 		climber = _climber_instance;
+		if (other.hold_box_type == HOLD_BOX_TYPE.LEFT) {
+			face_dir = facing_left;	
+		}
 	}
 }

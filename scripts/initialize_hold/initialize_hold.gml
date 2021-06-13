@@ -5,6 +5,6 @@ function initialize_hold(_type){
 	hold_hitbox = instance_create_depth(x, y, depth - 1, obj_hold_hitbox);
 	with (hold_hitbox) {
 		hitbox_belongs_to = other;
-		sprite_index = data_store.hold_mapping[?_type];
+		sprite_index = other.hold_hitbox_spr;
 	}
 }

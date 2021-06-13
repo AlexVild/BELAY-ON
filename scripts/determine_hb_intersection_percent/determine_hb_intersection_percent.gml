@@ -14,5 +14,9 @@ function determine_hb_intersection_percent(_hold_hb_id, _hand_hb_id) {
 	_side_diff = abs(_hold_hb_id.bbox_left - _hand_hb_id.bbox_left);
 	_top_diff = abs(_hold_hb_id.bbox_top - _hand_hb_id.bbox_top);
 	
-	return abs((_hold_bbox_width - _side_diff) * (_hold_bbox_height -_top_diff)) / _area_in;
+	var _percent = abs((_hold_bbox_width - _side_diff) * (_hold_bbox_height -_top_diff)) / _area_in;
+	
+	show_debug_message(_percent);
+	
+	return _percent;
 }
