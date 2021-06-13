@@ -2,6 +2,12 @@
 /// @desc
 function state_climber_wall_idle(_event){
 	if (_event == step) {
+		if (state_new) {
+			with (belongs_to.game_manager.timer) {
+				start = true;
+			}
+		}
+		
 		var _drain = base_stamina_degrade_rate + power(.75 * (1 - grip_percent), 2);
 		stamina -= _drain;
 		

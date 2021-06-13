@@ -8,7 +8,7 @@ if (!is_displaying) {
 		is_displaying = true;
 		display_alert(ALERT.FAILURE, room_width / 2, room_height / 2);
 		with (obj_button) {
-			button_hidden = false;	
+			button_hidden = false;
 		}
 	}
 
@@ -19,6 +19,10 @@ if (!is_displaying) {
 		display_alert(ALERT.BIG_SUCCESS, room_width / 2, room_height / 2);
 		with (obj_button) {
 			button_hidden = false;	
+		}
+		with (timer) {
+			start = false;
+			display = true;
 		}
 	}
 }

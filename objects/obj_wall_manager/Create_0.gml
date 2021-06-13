@@ -17,3 +17,8 @@ with (wall) {
 wall_failed = false;
 wall_completed = false;
 is_displaying = false;
+
+timer = instance_create_layer(0, 0, "Game", obj_timer);
+with (timer) {
+	manager = other;;
+}
