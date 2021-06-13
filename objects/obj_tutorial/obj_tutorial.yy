@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_exit",
-    "path": "sprites/spr_exit/spr_exit.yy",
+    "name": "spr_tutorial",
+    "path": "sprites/spr_tutorial/spr_tutorial.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/UI/buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_exit_button",
+  "name": "obj_tutorial",
   "tags": [],
   "resourceType": "GMObject",
 }

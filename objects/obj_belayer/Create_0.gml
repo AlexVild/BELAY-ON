@@ -24,7 +24,7 @@ slack = 0;
 slack_status = get_slack_status(slack);
 slack_increment_good = 15;
 slack_increment_bad = 10;
-slack_variance = 2;
+slack_variance = 4;
 
 belongs_to = noone;
 climber = noone;

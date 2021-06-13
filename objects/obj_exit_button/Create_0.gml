@@ -4,5 +4,5 @@
 event_inherited();
 
 action = function() {
-	toggle_full_screen();
+	game_end();
 }

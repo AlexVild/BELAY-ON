@@ -1,6 +1,6 @@
 switch(data_store.selected_difficulty) {
 	case DIFFICULTY.HARD:
-		
+		wall = instance_create_depth(x, y, depth, obj_wall_hard);
 		break;
 	case DIFFICULTY.MEDIUM:
 		wall = instance_create_depth(x, y, depth, obj_wall_medium);
@@ -9,8 +9,6 @@ switch(data_store.selected_difficulty) {
 		wall = instance_create_depth(x, y, depth, obj_wall_easy);
 		break;
 }
-
-
 
 with (wall) {
 	game_manager = other;
