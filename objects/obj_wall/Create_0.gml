@@ -12,8 +12,8 @@ left_hold_index = 0;
 hold_distance = -1; // how much slack each new hold adds
 hold_variance = -1;
 
-climber = instance_create_layer(272, 224, "Climbers", obj_climber);
 belayer = instance_create_layer(240, 240, "Climbers", obj_belayer);
+climber = instance_create_layer(272, 224, "Climbers", obj_climber);
 with (climber) {
 	belongs_to = other;
 	belayer = other.belayer;

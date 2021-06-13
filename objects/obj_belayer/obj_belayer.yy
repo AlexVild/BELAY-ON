@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_climber",
-    "path": "sprites/spr_climber/spr_climber.yy",
+    "name": "spr_belayer_belaying",
+    "path": "sprites/spr_belayer_belaying/spr_belayer_belaying.yy",
   },
   "solid": false,
   "visible": true,

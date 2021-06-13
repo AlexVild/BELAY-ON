@@ -12,6 +12,13 @@ function state_climber_wall_idle(_event){
 			truestate_switch(CLIMBER_STATES.WALL_FALLING);	
 		}
 	} else if (_event == draw) {
+		if (slack_status == SLACK_STATUS.LOW || SLACK_STATUS.VERY_LOW) {
+			sprite_index = wall_idle_spr_short;
+		} else if (slack_status == SLACK_STATUS.HIGH|| SLACK_STATUS.VERY_HIGH) {
+			sprite_index = wall_idle_spr_nervous;
+		} else {
+			sprite_index = wall_idle_spr;
+		}
 		draw_self();
 	}
 }

@@ -12,6 +12,7 @@ function state_climber_wall_climbing(_event){
 			truestate_switch(CLIMBER_STATES.WALL_FALLING);	
 		}
 	} else if (_event == draw) {
+		sprite_index = wall_climbing_spr;
 		draw_self();
 	}
 }

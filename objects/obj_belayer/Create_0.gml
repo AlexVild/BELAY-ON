@@ -4,18 +4,21 @@ enum BELAYER_STATES {
 	IDLE,
 	BELAYING,
 	VICTORY,
+	DEFEAT,
 }
 
 truestate_create_state(BELAYER_STATES.IDLE, state_belayer_idle, "Idle");
 truestate_create_state(BELAYER_STATES.BELAYING, state_belayer_belaying, "Belaying");
 truestate_create_state(BELAYER_STATES.VICTORY, state_belayer_victory, "Victory");
+truestate_create_state(BELAYER_STATES.DEFEAT, state_belayer_defeat, "Defeat");
 
 truestate_set_default(BELAYER_STATES.IDLE);
 
 vspd = 0;
-idle_spr = spr_climber;
-belaying_spr = spr_climber;
-victory_spr = spr_climber;
+idle_spr = spr_belayer_belaying;
+belaying_spr = spr_belayer_belaying;
+victory_spr = spr_belayer_victory;
+defeat_spr = spr_belayer_belaying;
 belay_on = false;
 slack = 0;
 slack_status = get_slack_status(slack);

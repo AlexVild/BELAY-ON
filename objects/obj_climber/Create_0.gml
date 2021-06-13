@@ -17,15 +17,16 @@ truestate_create_state(CLIMBER_STATES.WALL_FALLING, state_climber_wall_falling, 
 truestate_set_default(CLIMBER_STATES.GROUND_IDLE);
 
 vspd = 0;
-ground_idle_spr = spr_climber;
-wall_idle_spr = spr_climber;
-wall_idle_spr_nervous = spr_climber;
-wall_idle_spr_short = spr_climber;
-wall_climbing_spr = spr_climber;
-wall_done_spr = spr_climber;
-wall_falling_spr = spr_climber;
+ground_idle_spr = spr_climber_ground_idle;
+wall_idle_spr = spr_climber_climbing;
+wall_idle_spr_nervous = spr_climber_climbing;
+wall_idle_spr_short = spr_climber_short_rope;
+wall_climbing_spr = spr_climber_climbing;
+wall_done_spr = spr_climber_victory;
+wall_falling_spr = spr_climber_falling;
 is_climbing = false;
 is_finished = false;
+has_fallen = false;
 stamina = 100;
 belongs_to = noone;
 base_stamina_degrade_rate = 0.01;

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_climber",
-    "path": "sprites/spr_climber/spr_climber.yy",
+    "name": "spr_climber_ground_idle",
+    "path": "sprites/spr_climber_ground_idle/spr_climber_ground_idle.yy",
   },
   "solid": false,
   "visible": true,

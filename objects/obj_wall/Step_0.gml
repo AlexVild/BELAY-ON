@@ -9,7 +9,7 @@ if (!instance_exists(game_manager)) {
 	with (climber) {
 		if (instance_exists(other.game_manager)) {
 			other.game_manager.wall_completed = is_finished;
-			other.game_manager.wall_failed = stamina <= 0;
+			other.game_manager.wall_failed = has_fallen;
 		} else {
 			show_message("NO GAME MANAGER!");
 		}
