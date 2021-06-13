@@ -10,15 +10,14 @@ enum CLIMBER_STATES {
 }
 
 truestate_create_state(CLIMBER_STATES.GROUND_IDLE, state_climber_ground_idle, "Idle");
-truestate_create_state(CLIMBER_STATES.WALL_IDLE, state_climber_wall_idle, "Wall Idle");
-truestate_create_state(CLIMBER_STATES.WALL_CLIMBING, state_climber_wall_climbing, "Climbing");
+truestate_create_state(CLIMBER_STATES.WALL_IDLE, state_climber_wall_idle, "Climbing");
 truestate_create_state(CLIMBER_STATES.WALL_DONE, state_climber_wall_done, "Done");
 truestate_create_state(CLIMBER_STATES.WALL_FALLING, state_climber_wall_falling, "Falling");
 truestate_create_state(CLIMBER_STATES.FALLEN, state_climber_fallen, "Fallen");
 
 truestate_set_default(CLIMBER_STATES.GROUND_IDLE);
 
-normal_fall_distance = 22;
+normal_fall_distance = 40;
 vspd = 0;
 ground_idle_spr = spr_climber_ground_idle;
 wall_idle_spr = spr_climber_climbing;
@@ -33,7 +32,7 @@ is_finished = false;
 falling_point_x = x;
 falling_point_y = y;
 
-target_point_x = x;
+start_y = y;
 target_point_y = y;
 climbing_spd = 1;
 swing_spd = 0.15;

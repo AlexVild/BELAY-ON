@@ -22,7 +22,7 @@
     {"id":{"name":"spr_right_hand_crimp_open","path":"sprites/spr_right_hand_crimp_open/spr_right_hand_crimp_open.yy",},"order":0,},
     {"id":{"name":"check_collision_and_move_xy","path":"scripts/check_collision_and_move_xy/check_collision_and_move_xy.yy",},"order":3,},
     {"id":{"name":"check_horizontal_collision","path":"scripts/check_horizontal_collision/check_horizontal_collision.yy",},"order":5,},
-    {"id":{"name":"calculate_climber_stamina_loss","path":"scripts/calculate_climber_stamina_loss/calculate_climber_stamina_loss.yy",},"order":0,},
+    {"id":{"name":"calculate_climber_climb_point","path":"scripts/calculate_climber_climb_point/calculate_climber_climb_point.yy",},"order":0,},
     {"id":{"name":"check_vertical_collision","path":"scripts/check_vertical_collision/check_vertical_collision.yy",},"order":7,},
     {"id":{"name":"obj_hand","path":"objects/obj_hand/obj_hand.yy",},"order":1,},
     {"id":{"name":"obj_belayer","path":"objects/obj_belayer/obj_belayer.yy",},"order":4,},

@@ -7,6 +7,9 @@ if (!instance_exists(game_manager)) {
 } else {
 	#region check climber status
 	with (climber) {
+		if (is_climbing) {
+			target_point_y = start_y - calculate_climber_climb_point(other);
+		}
 		if (instance_exists(other.game_manager)) {
 			other.game_manager.wall_completed = is_finished;
 			other.game_manager.wall_failed = has_fallen;
@@ -15,7 +18,7 @@ if (!instance_exists(game_manager)) {
 		}
 	
 		if (is_finished || stamina <= 0) {
-			with(other) {
+			with (other) {
 				update_hold_box_positions();
 			}
 		}

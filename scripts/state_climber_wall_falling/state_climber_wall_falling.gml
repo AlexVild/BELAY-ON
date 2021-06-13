@@ -8,6 +8,7 @@ function state_climber_wall_falling(_event){
 			} else {
 				state_var[0] = y + normal_fall_distance;
 			}
+			is_climbing = false;
 		}
 		y += 1;
 		

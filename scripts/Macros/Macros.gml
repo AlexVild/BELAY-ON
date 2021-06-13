@@ -180,4 +180,6 @@ function Macros() {
 	
 	#macro rope_meter_x 50
 	#macro rope_meter_y 240
+	
+	#macro summit_distance 144
 }
