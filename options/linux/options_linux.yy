@@ -1,9 +1,9 @@
 {
-  "option_linux_display_name": "Bedtime",
+  "option_linux_display_name": "BELAY ON",
   "option_linux_version": "1.0.0.0",
   "option_linux_maintainer_email": "ajv2324@gmail.com",
   "option_linux_homepage": "http://www.yoyogames.com",
-  "option_linux_short_desc": "Don't get caught!",
+  "option_linux_short_desc": "CLIMBING!!!",
   "option_linux_long_desc": "",
   "option_linux_splash_screen": "C:/ProgramData/GameMakerStudio2/Cache/runtimes/runtime-2.2.5.378/BaseProject/options/linux/splash/splash.png",
   "option_linux_display_splash": false,
