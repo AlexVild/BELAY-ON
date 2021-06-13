@@ -1,7 +1,5 @@
 event_inherited();
 
-initialize_hand_hitboxes();
-
 hold_box_parent = noone;
 is_hovered = false;
 is_clicked = false;

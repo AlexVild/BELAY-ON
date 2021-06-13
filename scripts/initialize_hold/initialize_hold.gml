@@ -6,5 +6,9 @@ function initialize_hold(_type){
 	with (hold_hitbox) {
 		hitbox_belongs_to = other;
 		sprite_index = other.hold_hitbox_spr;
+		if (other.face_dir == facing_left) {
+			var _sprite_name_left = string_replace(sprite_get_name(sprite_index), "right", "left");
+			sprite_index = asset_get_index(_sprite_name_left);
+		}
 	}
 }

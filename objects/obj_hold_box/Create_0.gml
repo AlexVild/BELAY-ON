@@ -31,5 +31,6 @@ create_hand = function() {
 		if (other.hold_box_type == HOLD_BOX_TYPE.LEFT) {
 			face_dir = facing_left;	
 		}
+		initialize_hand_hitboxes();
 	}
 }

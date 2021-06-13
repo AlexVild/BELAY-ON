@@ -19,7 +19,8 @@ is_grabbed = function() {
 		if (_amt_hitboxes > 0) {
 			for (var i = 0; i < _amt_hitboxes; i++) {
 				var _hitbox = _hitboxes[| i];
-				if (_hitbox.sprite_index == _grab_spr && _hitbox.active) {
+				var _left_spr = asset_get_index(sprite_get_name(_grab_spr) + "_left");
+				if ((_hitbox.sprite_index == _grab_spr || _hitbox.sprite_index == _left_spr) && _hitbox.active) {
 					_ret = true;
 					other.grabbing_hitbox = _hitbox;
 				}
@@ -33,8 +34,4 @@ is_grabbed = function() {
 		grabbing_hitbox = noone;	
 	}
 	return _ret;
-}
-
-if (type != -1) {
-	initialize_hold(type);
 }

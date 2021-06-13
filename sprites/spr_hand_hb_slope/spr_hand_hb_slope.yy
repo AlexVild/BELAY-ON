@@ -104,8 +104,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"912b6be2-2774-45ca-9066-82f976c255b5","path":"sprites/spr_hand_hb_slope/spr_hand_hb_slope.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"912b6be2-2774-45ca-9066-82f976c255b5","path":"sprites/spr_hand_hb_slope/spr_hand_hb_slope.yy",},"LayerId":{"name":"b5f7c338-826d-45ab-8399-788fddced7d2","path":"sprites/spr_hand_hb_slope/spr_hand_hb_slope.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"912b6be2-2774-45ca-9066-82f976c255b5","path":"sprites/spr_hand_hb_slope/spr_hand_hb_slope.yy",},"LayerId":{"name":"cbeb94a4-4e12-4d3f-90ca-256261480917","path":"sprites/spr_hand_hb_slope/spr_hand_hb_slope.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"912b6be2-2774-45ca-9066-82f976c255b5","path":"sprites/spr_hand_hb_slope/spr_hand_hb_slope.yy",},"LayerId":{"name":"b5f7c338-826d-45ab-8399-788fddced7d2","path":"sprites/spr_hand_hb_slope/spr_hand_hb_slope.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_hand_hb_slope","path":"sprites/spr_hand_hb_slope/spr_hand_hb_slope.yy",},"resourceVersion":"1.0","name":"912b6be2-2774-45ca-9066-82f976c255b5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
